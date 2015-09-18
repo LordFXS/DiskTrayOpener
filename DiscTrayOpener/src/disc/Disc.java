@@ -1,16 +1,8 @@
 package disc;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 import java.io.*;
-
-import javax.management.loading.PrivateClassLoader;
-import javax.swing.AbstractButton;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.filechooser.FileSystemView;
 
 public class Disc extends JPanel implements ActionListener{
